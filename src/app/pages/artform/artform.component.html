@@ -1,0 +1,19 @@
+<div class="bdy">
+<div class="container">
+    <div class="row">
+        <div class="col" *ngFor="let item of artform">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/{{item.image}}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.name}}</h5>
+                  <p class="card-text">{{item.desc}}.</p>
+                  <a (click)="gotoHere(item.id)" class="btn btn-primary">More Info</a>
+                 
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+</div>
+</div>
+

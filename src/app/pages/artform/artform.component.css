@@ -1,0 +1,17 @@
+.card-img-top{
+    height: 200px;
+    width: 287px;
+    
+}
+.bdy{
+    background-color: black;
+}
+
+.card{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+.navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
